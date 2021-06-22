@@ -2,7 +2,6 @@ import React from 'react';
 import {connect} from 'react-redux';
 import { Field, reduxForm } from 'redux-form';
 import { InputField } from '../../basic/InputField';
-import { Checkbox } from '../../basic/Checkbox';
 import { Toast } from '../../basic/Toast';
 import {bindActionCreators } from 'redux';
 import { FormRequestFailure, FormRequestSuccess, FormRequest } from '../../actions/FormAction';
